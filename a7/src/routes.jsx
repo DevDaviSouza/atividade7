@@ -6,6 +6,10 @@ import Ex3 from './pages/Ex3'
 import Ex4 from './pages/Ex4'
 import Ex5 from './pages/Ex5'
 import Ex6 from './pages/Ex6'
+import Ex7 from './pages/Ex7'
+import Ex8 from './pages/Ex8'
+import Ex9 from './pages/Ex9'
+import Ex10 from './pages/Ex10'
 
 export default function routes() {
   return(
@@ -18,6 +22,10 @@ export default function routes() {
         <Route path='/ex4' element={<Ex4 />}/>
         <Route path='/ex5' element={<Ex5 />}/>
         <Route path='/ex6' element={<Ex6 />}/>
+        <Route path='/ex7' element={<Ex7 />}/>
+        <Route path='/ex8' element={<Ex8 />}/>
+        <Route path='/ex9' element={<Ex9 />}/>
+        <Route path='/ex10' element={<Ex10 />}/>
       </Routes>
     </Router>
   )
