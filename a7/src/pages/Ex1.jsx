@@ -17,7 +17,7 @@ export default function Ex1() {
   }
   
   return (
-    <div>
+    <div className="container">
       <h1>Contador</h1>
 
         <button onClick={decrementar}>decrementar</button>
